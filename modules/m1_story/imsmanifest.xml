@@ -61,14 +61,11 @@
   <resources>
     <resource identifier="__6GVDbL7Z4om_course_id_RES" type="webcontent" href="index_lms.html" adlcp:scormtype="sco">
       <file href="story_content/thumbnail.jpg" />
-      <file href="story_content/Shape6HzDOG0EtJ0.swf" />
       <file href="story_content/video_6hTpDqMbLd5_0_48_1280x720.mp4" />
       <file href="mobile/video_6hTpDqMbLd5_0_48_1280x720.jpg" />
-      <file href="story_content/Shape68IhCblPKls.swf" />
       <file href="story_content/video_5bwEnfd3h6S_22_48_1280x720.mp4" />
       <file href="mobile/video_5bwEnfd3h6S_22_48_1280x720.jpg" />
       <file href="story_content/Slide6ZekTHfher3.swf" />
-      <file href="story_content/Shape6oLbr37UziW.swf" />
       <file href="story_content/video_6DVrrZDzIQh_22_48_1280x720.mp4" />
       <file href="mobile/video_6DVrrZDzIQh_22_48_1280x720.jpg" />
       <file href="meta.xml" />
