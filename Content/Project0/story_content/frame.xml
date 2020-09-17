@@ -1,0 +1,1397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns00001001101" textdirection="ltr" device="false" fontscale="90" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
+  <layouts>
+    <layout name="npnxnanbsnfns10111001101" font="Arial CE" controllayout="npnxnanbsnfns10111001101" colorscheme="npnxnanbnsnfns00001001101" string_table="npnxnanbnsnfns00001001101" />
+    <layout name="pxabnsnfns10111001101" font="Arial CE" controllayout="pxabnsnfns10111001101" colorscheme="npnxnanbnsnfns00001001101" string_table="npnxnanbnsnfns00001001101" />
+    <layout name="npxnabnsnfns10111001101" font="Arial CE" controllayout="npxnabnsnfns10111001101" colorscheme="npnxnanbnsnfns00001001101" string_table="npnxnanbnsnfns00001001101" />
+    <layout name="npnxnanbnsnfns10111001101" font="Arial CE" controllayout="npnxnanbnsnfns10111001101" colorscheme="npnxnanbnsnfns00001001101" string_table="npnxnanbnsnfns00001001101" />
+    <layout name="pxabnsnfns10111001100" font="Arial CE" controllayout="pxabnsnfns10111001100" colorscheme="npnxnanbnsnfns00001001101" string_table="npnxnanbnsnfns00001001101" />
+    <layout name="npnxnanbnsnfns00001001101" font="Arial CE" controllayout="npnxnanbnsnfns00001001101" colorscheme="npnxnanbnsnfns00001001101" string_table="npnxnanbnsnfns00001001101" />
+    <layout name="pxabnsnfns00001000101" font="Arial CE" controllayout="pxabnsnfns00001000101" colorscheme="npnxnanbnsnfns00001001101" string_table="npnxnanbnsnfns00001001101" />
+    <layout name="pnxanbnsnfns10111001101" font="Arial CE" controllayout="pnxanbnsnfns10111001101" colorscheme="npnxnanbnsnfns00001001101" string_table="npnxnanbnsnfns00001001101" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="false">
+            <options>
+              <option name="title_text" value="FUSE WBT" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="false">
+            <options />
+          </option>
+          <option name="sidebar_enabled" value="false">
+            <options>
+              <option name="sidebarpos" value="left" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="outline" value="true" group="linkright" />
+              <listitem name="glossary" value="false" group="linkright" />
+              <listitem name="transcript" value="true" group="linkright" />
+              <listitem name="resources" value="false" group="linkright" />
+              <listitem name="customlink" value="true" group="linkright">
+                <properties>
+                  <property name="title" value="Impressum" />
+                  <property name="data" value="6YFDdPt53tf" />
+                  <property name="ignoreSlideLock" value="true" />
+                </properties>
+              </listitem>
+              <listitem name="customlink" value="true" group="linkright">
+                <properties>
+                  <property name="title" value="Hilfe" />
+                  <property name="data" value="5zvSZjnFDER" />
+                  <property name="ignoreSlideLock" value="true" />
+                </properties>
+              </listitem>
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="elapsed" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="false" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="true" />
+          <option name="seekbar" value="true">
+            <options>
+              <option name="readonly" value="false" />
+              <option name="readonlyOnce" value="false" />
+            </options>
+          </option>
+          <option name="search" value="false" />
+          <option name="pauseplay" value="true" />
+          <option name="replay" value="true" />
+          <option name="closed_captions" value="false">
+            <options>
+              <option name="font" value="Arial" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="buttonoptions">
+        <options>
+          <option name="next" value="icon" />
+          <option name="previous" value="icon" />
+          <option name="submit" value="icon" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns10111001101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns10111001101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns10111001101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns10111001101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns10111001100">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns00001001101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00001000101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pnxanbnsnfns10111001101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="npnxnanbnsnfns00001001101">
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C2280" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C2280" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBB0A30" alpha="100" stop="0" />
+                <color rgb="0xBB0A30" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+                <color rgb="0x000000" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xEAEAEA" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF7F7F7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="60" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+                <color rgb="0xAFAFAF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+                <color rgb="0xF4F4F4" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBB0A30" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBB0A30" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBB0A30" alpha="0" stop="0" />
+                <color rgb="0xFFFFFF" alpha="0" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBB0A30" alpha="20" stop="0" />
+                <color rgb="0xBB0A30" alpha="20" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBB0A30" alpha="0" stop="0" />
+                <color rgb="0xBB0A30" alpha="0" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBB0A30" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBB0A30" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="50" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="128" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+                <color rgb="0x000000" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+                <color rgb="0x000000" alpha="0" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9D9D9" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDFDFDF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xADADAD" alpha="100" stop="0" />
+                <color rgb="0xFAFAFA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8A8A8A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBB0A30" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8A8A8A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+                <color rgb="0x000000" alpha="0" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9D9D9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBFBFBF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE1E1E1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBB0A30" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC6C6C6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF9F9F9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE1E1E1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBB0A30" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBB0A30" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBB0A30" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="80" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBB0A30" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBB0A30" alpha="100" stop="0" />
+                <color rgb="0xBB0A30" alpha="100" stop="128" />
+                <color rgb="0xC3C3C3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="HTML">
+        <group_colors>
+          <color name="htmlpage_bg_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="accessibility">
+        <group_colors>
+          <color name="focus_rect">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFF00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="npnxnanbnsnfns00001001101">
+      <string id="acc_active">aktiv</string>
+      <string id="check_include">Überprüfen</string>
+      <string id="clear">Löschen</string>
+      <string id="close">Schließen</string>
+      <string id="acc_closed_captions">Geschlossene Untertitel. Drücken Sie die Leertaste, um die Untertitel an- und oder auszuschalten.</string>
+      <string id="continue">Fortfahren</string>
+      <string id="continueresponsive">Fortfahren</string>
+      <string id="exit">Verlassen</string>
+      <string id="filter">Filter</string>
+      <string id="finish">BEENDEN</string>
+      <string id="acc_finish">beenden</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
+      <string id="glossary">Glossar</string>
+      <string id="terms">Begriffe</string>
+      <string id="action">Aktion</string>
+      <string id="keyboardshortcuts">Tastenkombinationen</string>
+      <string id="shortcuthelp">Tastenkombinationen anzeigen</string>
+      <string id="shortcut">Tastenkombination</string>
+      <string id="togglezoom">Zoom-Modus wechseln</string>
+      <string id="outline">Menü</string>
+      <string id="disabled_orientation">Bitte drehen Sie das Gerät</string>
+      <string id="next">WEITER</string>
+      <string id="acc_next">nächste</string>
+      <string id="transcript_chk">Notizen</string>
+      <string id="transcript">Transkript</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">Weitere Informationen</string>
+      <string id="closed_captions">Untertitel</string>
+      <string id="acc_pause">pause</string>
+      <string id="acc_play">spielen</string>
+      <string id="send_an_email">E-Mail senden</string>
+      <string id="prev">ZURÜCK</string>
+      <string id="acc_previous">vorherigen</string>
+      <string id="question_list">Liste der Fragen</string>
+      <string id="acc_replay">erneute wiedergabe</string>
+      <string id="resources">Anlagen</string>
+      <string id="acc_resources">Anlagen</string>
+      <string id="restart">Neustart</string>
+      <string id="resume">Fortsetzen</string>
+      <string id="acc_search_input">suche</string>
+      <string id="search_toggle">Suchen</string>
+      <string id="sidebar_toggle">Seitenleiste ein-/ausblenden</string>
+      <string id="desktop_start">Kurs starten</string>
+      <string id="mobile_start">Kurs starten</string>
+      <string id="search">Suche...</string>
+      <string id="search_in">Suche in:</string>
+      <string id="search_results">Suchergebnisse</string>
+      <string id="acc_skipnavigation">Navigation überspringen. Eingabetaste drücken, um zur Folie zurückzukehren.</string>
+      <string id="slide_text_chk">Folientext</string>
+      <string id="submitall">ALLES SENDEN</string>
+      <string id="acc_submitall">alles senden</string>
+      <string id="submit">AUSWERTEN</string>
+      <string id="acc_submit">auswerten</string>
+      <string id="acc_volume">Lautstärke</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Arial CE">
+      <files>
+        <file bold="false" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+    <font name="Symbol">
+      <files>
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+    <font name="Arial">
+      <files>
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.5jSigRxnZDJ" displaytext="1 | Intro" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5jSigRxnZDJ.6BkJtSaBBmY" displaytext="Willkommen" expand="false" type="slide" />
+            <slidelink slideid="_player.6SgQklNAW7P.5uUQ8IBTVAk" displaytext="Einleitung " expand="false" type="slide" />
+            <slidelink slideid="_player.6SgQklNAW7P.6myWWdcxIR1" displaytext="Lernziele" expand="false" type="slide" />
+            <slidelink slideid="_player.6SgQklNAW7P.5rfTh5lyU7S" displaytext="Allgemeine Hinweise" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6SgQklNAW7P" displaytext="2 | Hintergrund" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6SgQklNAW7P.65hFCqNbX2e" displaytext="Definition" expand="false" type="slide" />
+            <slidelink slideid="_player.6SgQklNAW7P.5oimJbHHEx8" displaytext="Abgrenzung Review und Projektreifegrad" expand="false" type="slide" />
+            <slidelink slideid="_player.6SgQklNAW7P.5s0TdCV5Ovg" displaytext="Gründe für die Durchführung von Reviews" expand="false" type="slide" />
+            <slidelink slideid="_player.6SgQklNAW7P.6h5MTAWsCPY" displaytext="Unsere Kultur" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6IFAhiMMjA4" displaytext="3 |  Prozessüberblick" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6IFAhiMMjA4.5we3pHEjLXu" displaytext="Prozessüberblick" expand="false" type="slide" />
+            <slidelink slideid="_player.6IFAhiMMjA4.5WxVc4wIkRe" displaytext="Zusammenarbeitsmodell" expand="false" type="slide" />
+            <slidelink slideid="_player.6IFAhiMMjA4.6UaemDJPDWz" displaytext="Review-Prozess" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6LaEJhErjxB" displaytext="4 |  Durchführung" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6LaEJhErjxB.6E1TjEUt2fo" displaytext="Das Review planen…" expand="false" type="slide" />
+            <slidelink slideid="_player.6LaEJhErjxB.5zxheQGyKJQ" displaytext="Review Art und –Zweck" expand="false" type="slide" />
+            <slidelink slideid="_player.6LaEJhErjxB.5fAxVzXfbTj" displaytext="Review-Objekt und –Umfang" expand="false" type="slide" />
+            <slidelink slideid="_player.6LaEJhErjxB.6RLobWjvMNb" displaytext="Termine" expand="false" type="slide" />
+            <slidelink slideid="_player.6LaEJhErjxB.6ou9lsmjFZg" displaytext="Checkliste" expand="false" type="slide" />
+            <slidelink slideid="_player.6aYRiafPqT5.6Xl1peq4YGp" displaytext="Kick-Off Meeting" expand="false" type="slide" />
+            <slidelink slideid="_player.6WS4Uz6I6Ec.6Y3h4WghtC1" displaytext="Vorbereitung" expand="false" type="slide" />
+            <slidelink slideid="_player.6WS4Uz6I6Ec.68VNs0RN0LU" displaytext="Klassifizierung von Review-Befunden" expand="false" type="slide" />
+            <slidelink slideid="_player.6WS4Uz6I6Ec.5bKAT8DjXws" displaytext="Analyse der Review-Befunde" expand="false" type="slide" />
+            <slidelink slideid="_player.6C7MSXvYb1s.5eAYR58CSZ6" displaytext="Sitzung" expand="false" type="slide" />
+            <slidelink slideid="_player.6dIYS0OH1sa.6VBP4Ih3Olx" displaytext="Nachbereitung" expand="false" type="slide" />
+            <slidelink slideid="_player.6dIYS0OH1sa.6q3RulM7dC1" displaytext="Follow-up" expand="false" type="slide" />
+            <slidelink slideid="_player.6dIYS0OH1sa.6UChGEE09ZE" displaytext="Abschluss" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6kDH2Yx6QUl" displaytext="5 | QM im Systems Engineering " expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6kDH2Yx6QUl.6K0ZUpuRXGj" displaytext="Reviews im QS-Prozess" expand="false" type="slide" />
+            <slidelink slideid="_player.6kDH2Yx6QUl.6Ub4C2OHvYa" displaytext="Zusammenarbeitsmodell bei FUSE in der Entwicklung " expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6e6QMCb8e2u" displaytext="6 | Abschluss" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6e6QMCb8e2u.5qCWZp9Foph" displaytext="Erfolgsfaktoren und hilfreiche Tipps" expand="false" type="slide" />
+            <slidelink slideid="_player.6e6QMCb8e2u.6LfkK5qqkNR" displaytext="Weitere Informationsquellen" expand="false" type="slide" />
+            <slidelink slideid="_player.6e6QMCb8e2u.5slw7AxaYFI" displaytext="Lernziele" expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+  </nav_data>
+  <resource_data description="" />
+  <transcript_data>
+    <slidetranscripts>
+      <slidetranscript slideid="5jSigRxnZDJ.6BkJtSaBBmY" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="0">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Qualit&amp;#228;t im Unternehmen beginnt mit Dir!&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Willkommen zum Review-Training!&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6SgQklNAW7P.5uUQ8IBTVAk" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="1">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Review – eine L&amp;#246;sung zur Verbesserung der Produktqualit&amp;#228;t nach Systems Engineering.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Diese Ma&amp;#223;nahme, die sich in die Toolbox neuer PMT L&amp;#246;sungen einreiht, bildet eine Basis f&amp;#252;r nachhaltige Qualit&amp;#228;tsverbesserung.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6SgQklNAW7P.6myWWdcxIR1" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;In diesem Training lernst du wesentliche Hintergr&amp;#252;nde und Vorteile der Review-Methode kennen und nutzen.&lt;br&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Nach Abschluss des Trainings wirst du …&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;… die Bedeutung von Reviews verstanden haben und wissen, welchen Mehrwert Reviews f&amp;#252;r uns bringen.   &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;… den Review-Prozess kennengelernt und verinnerlicht haben.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;… mit der Review-Methodik vertraut sein und das Zusammenarbeitsmodell kennen.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6SgQklNAW7P.5rfTh5lyU7S" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="3">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Bevor wir starten, lies dir die Hinweise zur Navigation und allgemeinen Nutzung durch.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6SgQklNAW7P.6IXuwz03Iml" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="4">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Im folgenden Kapitel erh&amp;#228;ltst du einen &amp;#220;berblick &amp;#252;ber die Bedeutung und den Kontext von Reviews, sowie Gr&amp;#252;nde und  Vorteile f&amp;#252;r die Anwendung der Review-Methode. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6SgQklNAW7P.65hFCqNbX2e" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="5">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Das Review ist eine Qualit&amp;#228;tssicherungsma&amp;#223;nahme f&amp;#252;r die Produktqualit&amp;#228;t, die aus der System- und Software-Entwicklung kommt. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Produktqualit&amp;#228;t bezieht sich in diesem Kontext prim&amp;#228;r auf Arbeitsprodukte, die im Entwicklungsprozess entstehen.&lt;br&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Ein Review erfolgt als formal geplanter und strukturierter Analyse- und Bewertungsprozess. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Reviews k&amp;#246;nnen in allen Gesch&amp;#228;ftsbereichen und im gesamten Produktentwicklungsprozess eingesetzt werden, um eventuelle Fehler fr&amp;#252;hzeitig zu finden.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Somit heben Reviews unsere t&amp;#228;gliche Arbeit auf ein  h&amp;#246;heres Niveau.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6SgQklNAW7P.5oimJbHHEx8" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="6">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Reviews sind deutlich vom Projektreifegrad abgegrenzt. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;In Reviews werden Arbeitsprodukte gepr&amp;#252;ft. Hauptzweck ist die Fehlerfindung, um ein verbessertes Arbeitsprodukt hervorzubringen.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Projektreifegrad Management bezieht sich auf das Projekt als Ganzes und bewertet den Projektfortschritt. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6SgQklNAW7P.5s0TdCV5Ovg" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="7">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Reviews sind in vielerlei Hinsicht wichtig f&amp;#252;r uns: Zum einen entspricht die Durchf&amp;#252;hrung von Reviews dem Entwickeln nach Stand der Technik. Zum anderen f&amp;#252;hrt der Einsatz zu einer verbesserten Produktqualit&amp;#228;t, und somit zu einem erleichterten Arbeitsalltag. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Finde heraus, welche Vorteile Reviews zus&amp;#228;tzlich bieten.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Mithilfe von Reviews schaffen wir es, Fehler fr&amp;#252;her zu erkennen – zu einem Zeitpunkt, an dem der Aufwand und die Kosten zur Fehlerbehebung noch gering sind.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6SgQklNAW7P.6h5MTAWsCPY" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="8">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Qualit&amp;#228;tsmanagement effizient umzusetzen bedeutet, eine gemeinsame Kultur und Arbeitsphilosophie zu verfolgen. Indem wir den Fokus auf unser gemeinsames Verst&amp;#228;ndnis der Zusammenarbeit legen, k&amp;#246;nnen wir einen Unterschied machen. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Lies die Komponenten f&amp;#252;r unsere werteorientierte Kultur und klicke dann auf weiter. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6IFAhiMMjA4.5we3pHEjLXu" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="9">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Im folgenden Kapitel erf&amp;#228;hrst du  Detailinformationen zu einzelnen Phasen und zur konkreten Durchf&amp;#252;hrung von Reviews. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Bevor wir zu den Details kommen, lass uns zuerst das Zusammenarbeitsmodell und den Prozess unter die Lupe nehmen.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6IFAhiMMjA4.5WxVc4wIkRe" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="10">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Ein Review steht an:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 24px'&gt;&lt;textformat leading='0' tabstops='[0, 24, 48, 96, 144, 192, 240]'&gt;&lt;font face='Symbol' size='12.5pt' style="font-size:12.5pt;display: inline-block; text-align:left; min-width: 24px; margin-left: -24px;" color='#ffffff'&gt;&amp;#183;&lt;/font&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Lisa ist die Autorin des Review Objekts. Sie ist f&amp;#252;r die Qualit&amp;#228;t ihres Arbeitsprodukts zust&amp;#228;ndig und st&amp;#246;&amp;#223;t das Review an. Sie stellt das Review-Objekt bereit und ist f&amp;#252;r die Einarbeitung der Befunde zust&amp;#228;ndig.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 24px'&gt;&lt;textformat leading='0' tabstops='[0, 24, 48, 96, 144, 192, 240]'&gt;&lt;font face='Symbol' size='12.5pt' style="font-size:12.5pt;display: inline-block; text-align:left; min-width: 24px; margin-left: -24px;" color='#ffffff'&gt;&amp;#183;&lt;/font&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Daniela &amp;#252;bernimmt die Rolle des Review-Leaders und damit die Organisation und Leitung des Reviews. Sie koordiniert die Aktivit&amp;#228;ten der Durchf&amp;#252;hrung und macht sich daher auf den Weg zu Frederic, mit dem sie sich zur weiteren Planung abstimmen muss. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 24px'&gt;&lt;textformat leading='0' tabstops='[0, 24, 48, 96, 144, 192, 240]'&gt;&lt;font face='Symbol' size='12.5pt' style="font-size:12.5pt;display: inline-block; text-align:left; min-width: 24px; margin-left: -24px;" color='#ffffff'&gt;&amp;#183;&lt;/font&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Frederic, der Projektleiter, kann einsch&amp;#228;tzen, welche Kollegen f&amp;#252;r die geforderten Pr&amp;#252;fungen in Frage kommen und Kapazit&amp;#228;t frei haben.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 24px'&gt;&lt;textformat leading='0' tabstops='[0, 24, 48, 96, 144, 192, 240]'&gt;&lt;font face='Symbol' size='12.5pt' style="font-size:12.5pt;display: inline-block; text-align:left; min-width: 24px; margin-left: -24px;" color='#ffffff'&gt;&amp;#183;&lt;/font&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Paul, Greta und Jannik werden als Reviewer benannt. Sie sind Fachexperten, die in der Lage sind, inhaltliche oder formale Fehler im Review-Objekt zu finden. Sie werden das Review-Objekt begutachten und Befunde dokumentieren.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 24px'&gt;&lt;textformat leading='0' tabstops='[0, 24, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Bitte beachte, im weiteren Verlauf werden wir bei der Vorstellung der Rollen und Aktivit&amp;#228;ten von der Review-Art &amp;quot;Inspection&amp;quot; ausgehen. Diese ist eine umfangreiche und aufwendige Review-Art, sodass hier alle relevanten Rollen und Aktivit&amp;#228;ten vorgestellt werden k&amp;#246;nnen. Es gibt weniger aufwendige Review-Arten, bei denen nicht alle genannten Rollen besetzt und nicht alle erl&amp;#228;uterten Aktivit&amp;#228;ten durchgef&amp;#252;hrt werden m&amp;#252;ssen.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6IFAhiMMjA4.6DjMYZL5Zgf" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="11">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Klicke auf die einzelnen Personen, um mehr &amp;#252;ber ihre Rolle zu erfahren.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6IFAhiMMjA4.6UaemDJPDWz" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="12">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Bevor wir den Review-Prozess im Detail durchgehen, klicke zun&amp;#228;chst die einzelnen Schritte an, um dir ein Bild &amp;#252;ber die Phasen zu machen.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6LaEJhErjxB.5ko0NOrAspP" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="13">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Starten wir mit der Planung des Reviews&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6LaEJhErjxB.6E1TjEUt2fo" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="14">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Daniela beginnt mit der Planung des bevorstehenden Reviews. Dabei muss sie verschiedene Dinge festlegen.&lt;br&gt;&lt;/font&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Auch Frederic, den Projektleiter, muss sie f&amp;#252;r einige planungsrelevante Themen hinzuziehen.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Was genau f&amp;#252;r die Review-Planung relevant ist und was sich hinter den einzelnen Themen im Detail verbirgt, erf&amp;#228;hrst du, indem du auf die einzelnen Kreise klickst. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6LaEJhErjxB.6RLobWjvMNb" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="15">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;In gemeinsamer Abstimmung mit Projektleiter Frederic legt Daniela die konkreten Pr&amp;#252;fzeitr&amp;#228;ume fest. Insbesondere bei aufwendigen Reviews wie einer Inspection sollten dem Projektleiter die zeitlichen Aufw&amp;#228;nde des Review Teams bekannt und eingeplant sein.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Bei der Ausplanung sollten unter anderem die folgenden Punkte ber&amp;#252;cksichtigt werden:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 18px'&gt;&lt;textformat leading='0' tabstops='[0, 18, 48, 96, 144, 192, 240]'&gt;&lt;font face='Symbol' size='12.5pt' style="font-size:12.5pt;display: inline-block; text-align:left; min-width: 18px; margin-left: -18px;" color='#ffffff'&gt;&amp;#183;&lt;/font&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Projektphase &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 18px'&gt;&lt;textformat leading='0' tabstops='[0, 18, 48, 96, 144, 192, 240]'&gt;&lt;font face='Symbol' size='12.5pt' style="font-size:12.5pt;display: inline-block; text-align:left; min-width: 18px; margin-left: -18px;" color='#ffffff'&gt;&amp;#183;&lt;/font&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Freigabe zu bestimmten Meilensteinen&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 18px'&gt;&lt;textformat leading='0' tabstops='[0, 18, 48, 96, 144, 192, 240]'&gt;&lt;font face='Symbol' size='12.5pt' style="font-size:12.5pt;display: inline-block; text-align:left; min-width: 18px; margin-left: -18px;" color='#ffffff'&gt;&amp;#183;&lt;/font&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Technisches und zeitliches Risiko&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 18px'&gt;&lt;textformat leading='0' tabstops='[0, 18, 48, 96, 144, 192, 240]'&gt;&lt;font face='Symbol' size='12.5pt' style="font-size:12.5pt;display: inline-block; text-align:left; min-width: 18px; margin-left: -18px;" color='#ffffff'&gt;&amp;#183;&lt;/font&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Ziel der Pr&amp;#252;fung&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 18px'&gt;&lt;textformat leading='0' tabstops='[0, 18, 48, 96, 144, 192, 240]'&gt;&lt;font face='Symbol' size='12.5pt' style="font-size:12.5pt;display: inline-block; text-align:left; min-width: 18px; margin-left: -18px;" color='#ffffff'&gt;&amp;#183;&lt;/font&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Lessons Learned bzw. Erfahrung&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 18px'&gt;&lt;textformat leading='0' tabstops='[0, 18, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Grunds&amp;#228;tzlich sind Reviews durchzuf&amp;#252;hren…&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;…M&amp;#246;glichst zeitnah nach Erstellung des Review-Objekts&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;…Vor Weitergabe des Dokuments an Folgeprozesse&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;…Bei Freigaberelevanz: Rechtzeitig, sodass ausreichend Zeit zur Fehlerbehebung bleibt&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6LaEJhErjxB.6ou9lsmjFZg" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="16">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;F&amp;#252;r die meisten Reviews ist zu empfehlen, das Review-Objekt anhand einer konkreten Checkliste zu pr&amp;#252;fen. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;F&amp;#252;r bestimmte Review-Objekte gibt es bereits vorbef&amp;#252;llte Checklisten, die du auf deinen konkreten Projektkontext zuschneiden solltest.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Falls keine Checkliste existiert, kannst du entweder gemeinsam mit einem Experten f&amp;#252;r das Review-Objekt eigene Pr&amp;#252;fkriterien definieren oder eine Ad-Hoc Pr&amp;#252;fung ohne Checkliste durchf&amp;#252;hren.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6LaEJhErjxB.5fAxVzXfbTj" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="17">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Reviews k&amp;#246;nnen zur Qualit&amp;#228;tsverbesserung  unterschiedlichster Arbeitsprodukte eingesetzt werden.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Wenn du mehr &amp;#252;ber das Review-Objekt sowie den Umfang von Reviews erfahren m&amp;#246;chtest, klicke auf die einzelnen Bereiche. Alternativ klicke direkt auf „weiter“.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6LaEJhErjxB.5zxheQGyKJQ" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="18">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Es gibt verschiedene Review-Arten, wobei sich die konkrete Umsetzung von Unternehmen zu Unternehmen unterscheidet. Alle Review-Arten verfolgen das Ziel eines verbesserten Objektes.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Daniela entscheidet sich f&amp;#252;r eine Inspection, da der Dokumentenumfang gro&amp;#223; und die Pr&amp;#252;fung in ihrem Projekt f&amp;#252;r eine Freigabe des Dokuments erforderlich ist.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Bitte beachte, dass sich die anderen Review-Arten leicht durch Weglassen von Schritten, Rollen und Anforderungen ableiten lassen. Aus dem FUSE Programm heraus werden zun&amp;#228;chst die drei hier aufgef&amp;#252;hrten Review-Arten zur Pr&amp;#252;fung von Arbeitsprodukten unterst&amp;#252;tzt:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 18px'&gt;&lt;textformat leading='0' tabstops='[0, 18, 48, 96, 144, 192, 240]'&gt;&lt;font face='Symbol' size='12.5pt' style="font-size:12.5pt;display: inline-block; text-align:left; min-width: 18px; margin-left: -18px;" color='#ffffff'&gt;&amp;#183;&lt;/font&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Stellungnahme&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 18px'&gt;&lt;textformat leading='0' tabstops='[0, 18, 48, 96, 144, 192, 240]'&gt;&lt;font face='Symbol' size='12.5pt' style="font-size:12.5pt;display: inline-block; text-align:left; min-width: 18px; margin-left: -18px;" color='#ffffff'&gt;&amp;#183;&lt;/font&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Walkthrough&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 18px'&gt;&lt;textformat leading='0' tabstops='[0, 18, 48, 96, 144, 192, 240]'&gt;&lt;font face='Symbol' size='12.5pt' style="font-size:12.5pt;display: inline-block; text-align:left; min-width: 18px; margin-left: -18px;" color='#ffffff'&gt;&amp;#183;&lt;/font&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;und Inspection&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Um mehr Details herauszufinden und wie du die richtige Art f&amp;#252;r dein Review-Objekt findest, klicke auf die einzelnen Review-Arten.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6LaEJhErjxB.5zAmTOnzKOd" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="19">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;F&amp;#252;r dich zusammengefasst: &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Wenn du ein Review planst, solltest du dir diese 6 Fragen stellen&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6aYRiafPqT5.6Xl1peq4YGp" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="20">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Ist die Planung abgeschlossen, findet ein Kick-Off Meeting statt. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Lisa, die Autorin des Review-Objekts, gibt im Kick-Off eine Einf&amp;#252;hrung und Erkl&amp;#228;rung zum Dokument sowie zum Projekt-Hintergrund, um den n&amp;#246;tigen Kontext herzustellen. Damit soll den Reviewern der Einstieg erleichtert werden. Daniela erl&amp;#228;utert au&amp;#223;erdem die Pr&amp;#252;fstrategie, die Aufteilung auf die einzelnen Reviewer und kann gegebenenfalls Lessons Learned aus fr&amp;#252;heren Reviews mitteilen.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Grunds&amp;#228;tzlich sollte das Kick-off Meeting im Sinne eines Auftaktgespr&amp;#228;ches genutzt werden. Das Meeting ist aber flexibel zu gestalten und kann vor Ort oder virtuell durchgef&amp;#252;hrt werden.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6WS4Uz6I6Ec.6Y3h4WghtC1" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="21">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Nach dem Kick-Off schlie&amp;#223;t sich der Kern des Reviews an: die Vorbereitung.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Paul, Greta und Jannik machen sich nun an die Arbeit. Sie pr&amp;#252;fen das Review-Objekt anhand der ihnen zugewiesenen Kriterien. Dazu wenden sie das Checklisten- sowie perspektivenbasierte Lesen an. Sie planen beispielsweise f&amp;#252;r ein zweiseitiges Dokument jeweils eine Stunde Zeit ein. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Diese Arbeit ist das Herzst&amp;#252;ck des Reviews, da hier die Fehler aufgedeckt und in den Befunden festgehalten werden.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Wenn du mehr &amp;#252;ber Lesearten erfahren m&amp;#246;chtest, klicke auf die Box.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Die hier gezeigten Inspektionsraten k&amp;#246;nnen als grobe Orientierung zur Reviewplanung herangezogen werden. Die Inspektionsrate bzw. resultierende Reviewdauer im konkreten Anwendungsfall ist allerdings von vielen Faktoren abh&amp;#228;ngig, sodass hier Erfahrungswerte gesammelt und dokumentiert werden sollten.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6WS4Uz6I6Ec.5bKAT8DjXws" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="22">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Idealerweise besteht vor der Sitzung die M&amp;#246;glichkeit, dass Lisa die identifizierten Befunde analysiert und kommentiert. Ziel ist es, dass nicht alle Befunde in der Review-Sitzung im Detail besprochen werden m&amp;#252;ssen.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6C7MSXvYb1s.5eAYR58CSZ6" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="23">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Schauen wir uns nun an, wie die Befunde in der Sitzung besprochen werden.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;In der Sitzung erfolgt die Durchsprache der Befunde, wobei die einzelnen Punkte je nach Kl&amp;#228;rungsbedarf diskutiert werden. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Ziel der Diskussion ist es, ein gemeinsames Verst&amp;#228;ndnis &amp;#252;ber den Inhalt, und Konsens &amp;#252;ber die Einstufung der Befunde zu erlangen.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Je nach Verlauf kann im Rahmen der Review Sitzung zus&amp;#228;tzlich Zeit zur gemeinsamen Fehlersuche verwendet werden. In Anbetracht der gefundenen Fehler wird zudem &amp;#252;ber die Notwendigkeit einer Re-Inspection entschieden.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6dIYS0OH1sa.6VBP4Ih3Olx" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="24">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;In der Nachbearbeitungsphase ist zun&amp;#228;chst Lisa, die Autorin, an der Reihe. Sie muss das Review-Objekt nun entsprechend der akzeptierten Befunde aus der Sitzung aktualisieren.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6dIYS0OH1sa.6q3RulM7dC1" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="25">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Nach R&amp;#252;ckmeldung aller Reviewer, dass ihre Befunde erwartungsgem&amp;#228;&amp;#223; eingearbeitet wurden, dokumentiert Daniela den Abschluss und die Freigabeempfehlung im Review Protokoll.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6dIYS0OH1sa.6UChGEE09ZE" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="26">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;In diesem Fall ist Daniela sehr zufrieden mit dem Review und dem verbesserten Review-Objekt. Aus Sicht dieses Reviews steht einer Freigabe des Review-Objekts nichts im Wege. Daniela h&amp;#228;lt dies in Form einer Freigabeempfehlung im Protokoll fest. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial CE' size='12.5pt' style="font-size:12.5pt;" color='#ffffff'&gt;Wenn inhaltliche Befunde innerhalb des Reviews nicht behoben werden konnten, werden Fehler- und Ma&amp;#223;nahmentickets im Rahmen des Fehler- und Problemmanagements erstellt.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6kDH2Yx6QUl.6cUDQT88NIL" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="27">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='11pt' style="font-size:11pt;" color='#ffffff'&gt;Wenn du noch mehr &amp;#252;ber Reviews im Kontext von Qualit&amp;#228;tsmanagement im Systems Engineering erfahren m&amp;#246;chtest, klicke auf weiter. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='11pt' style="font-size:11pt;" color='#ffffff'&gt;Andernfalls, klicke auf „&amp;#220;berspringen“.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6kDH2Yx6QUl.6K0ZUpuRXGj" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="28">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='11pt' style="font-size:11pt;" color='#ffffff'&gt;Reviews sind hier im Prozess zur Qualit&amp;#228;tssicherung verortet und dienen der Bewertung der Produktqualit&amp;#228;t. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='11pt' style="font-size:11pt;" color='#ffffff'&gt;Hier wird sichergestellt, dass die Arbeitsprodukte gem&amp;#228;&amp;#223; der definierten Prozesse erstellt wurden und die Qualit&amp;#228;tskriterien erf&amp;#252;llen. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='11pt' style="font-size:11pt;" color='#ffffff'&gt;Das Review stellt neben anderen PMT-L&amp;#246;sungen, wie z.B. dem Qualit&amp;#228;tsplan, dem Improvement Questionary oder dem QS-Bericht, ein wichtiges Instrument f&amp;#252;r die Qualit&amp;#228;tssicherung dar. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6kDH2Yx6QUl.6Ub4C2OHvYa" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="29">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='11pt' style="font-size:11pt;" color='#ffffff'&gt;Im Zusammenarbeitsmodell entsprechend des FUSE Prozesses gibt es zus&amp;#228;tzlich die Rolle des Qualit&amp;#228;tssicherers: Susanne. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='11pt' style="font-size:11pt;" color='#ffffff'&gt;Reviews finden wie bereits erl&amp;#228;utert an vielen Stellen im Entwicklungsprozess statt, beispielsweise im Anforderungs- oder Architekturprozess. Um die Arbeitsproduktqualit&amp;#228;t abzusichern legt Susanne in der Q-Aktivit&amp;#228;tenplanung unter anderem das Mindestset an im Projekt durchzuf&amp;#252;hrenden Reviews fest, verfolgt deren Abarbeitung und konsolidiert die Ergebnisse.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='11pt' style="font-size:11pt;" color='#ffffff'&gt;Susanne stimmt sich dabei mir Frederik ab. Gemeinsam benennen Sie das Review Team.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='11pt' style="font-size:11pt;" color='#ffffff'&gt;Alle &amp;#252;brigen Rollen bleiben dieselben, wie du sie bereits kennen gelernt hast. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6e6QMCb8e2u.6hjmJ8LzcKk" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="30">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='11pt' style="font-size:11pt;" color='#ffffff'&gt;Zum Schluss haben wir noch einige Erfolgsfaktoren und hilfreiche Tipps f&amp;#252;r dein n&amp;#228;chstes Review.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6e6QMCb8e2u.5qCWZp9Foph" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="31">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='11pt' style="font-size:11pt;" color='#ffffff'&gt;Du kannst einen entscheidenden Beitrag f&amp;#252;r den Erfolg deines Reviews leisten, wenn du folgende Faktoren in Bezug auf die Vorbereitung der Teilnehmer sowie die Review-Sitzung ber&amp;#252;cksichtigst.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='11pt' style="font-size:11pt;" color='#ffffff'&gt;Um n&amp;#252;tzliche Tipps zu erfahren, klicke auf die jeweiligen Icons. Hab dabei stets im Blick, eine verbesserte Qualit&amp;#228;t der Arbeitsprodukte zu erzielen.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6e6QMCb8e2u.5slw7AxaYFI" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="32">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='11pt' style="font-size:11pt;" color='#ffffff'&gt;In diesem Training hast du die Hintergr&amp;#252;nde zum Ablauf und der Methodik von Reviews kennen- und nutzengelernt.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='11pt' style="font-size:11pt;" color='#ffffff'&gt;Du hast die Bedeutung von Reviews verstanden und wei&amp;#223;t, welchen Mehrwert Reviews f&amp;#252;r uns bringen.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='11pt' style="font-size:11pt;" color='#ffffff'&gt;Du hast den Review-Prozess kennengelernt und verinnerlicht.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='11pt' style="font-size:11pt;" color='#ffffff'&gt;Du bist mit der Review-Methodik vertraut und kennst das Zusammenarbeitsmodell.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='11pt' style="font-size:11pt;" color='#ffffff'&gt;Du wei&amp;#223;t, wo du weitere Informationen erh&amp;#228;ltst und an welche Stellen du dich bei Fragen wenden kannst.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+    </slidetranscripts>
+  </transcript_data>
+  <glossary_data />
+</bwFrame>
