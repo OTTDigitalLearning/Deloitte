@@ -33,21 +33,19 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<!-- Button for smallest screens -->
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
 				<a class="navbar-brand" href="index.html">
-					<img src="assets/images/logo.png" alt="Deloitte Digital Learning"></a>
+					<img src="assets/images/logo.png" alt="Deloitte"></a>
 			</div>
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav pull-right mainNav">
 					<li class="active"><a href="index.html">Home</a></li>
 					<li><a href="about.html">About</a></li>
-					<li class="active">
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Portofolio<b class="caret"></b></a>
 						<ul class="dropdown-menu">
-							<li><a href="https://ottdigitallearning.github.io/Deloitte/eLearning.html">eLearning Programs</a></li>
-							<li><a href="https://ottdigitallearning.github.io/Deloitte/Video.html">Videos</a></li>
-							<li><a href="https://ottdigitallearning.github.io/Deloitte/Other.html">Other</a></li>
+							<li><a href="eLearning.html">eLearning</a></li>
+							<li><a href="Video.html">Video</a></li>
+							<li><a href="Other.html">Other</a></li>
 						</ul>
-					</li>
 					</li>
 					<li><a href="contact.html">Contact</a></li>
 
@@ -56,8 +54,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<!--/.nav-collapse -->
 		</div>
 	</div>
-	<!-- /.navbar -->
-
+	<!-- /.navbar -->	
 	<!-- Header -->
 	<!-- /Header -->
 
@@ -276,10 +273,33 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 
 
-    <!-- JavaScript libs are placed at the end of the document so the pages load faster -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-    <script src="assets/js/custom.js"></script>
+<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+	<script src="assets/js/modernizr-latest.js"></script> 
+	<script type='text/javascript' src='assets/js/jquery.min.js'></script>
+    <script type='text/javascript' src='assets/js/fancybox/jquery.fancybox.pack.js'></script>
+    
+    <script type='text/javascript' src='assets/js/jquery.mobile.customized.min.js'></script>
+    <script type='text/javascript' src='assets/js/jquery.easing.1.3.js'></script> 
+    <script type='text/javascript' src='assets/js/camera.min.js'></script> 
+    <script src="assets/js/bootstrap.min.js"></script> 
+	<script src="assets/js/custom.js"></script>
+    <script>
+		jQuery(function(){
+			
+			jQuery('#camera_wrap_4').camera({
+				height: '750',
+				loader: 'bar',
+				pagination: false,
+				thumbnails: false,
+				hover: false,
+				opacityOnGrid: false,
+				imagePath: 'assets/images/'
+			});
+
+		});
+	</script>
+    
 </body>
 </html>
+
    
