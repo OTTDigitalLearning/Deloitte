@@ -1,0 +1,1869 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns10111011111" textdirection="ltr" device="false" fontscale="110" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified">
+  <layouts>
+    <layout name="npnxnanbsnfns10111011111" font="Calibri" controllayout="npnxnanbsnfns10111011111" colorscheme="npnxnanbnsnfns10111011111" string_table="npnxnanbnsnfns10111011111" />
+    <layout name="pxabnsnfns10111011111" font="Calibri" controllayout="pxabnsnfns10111011111" colorscheme="npnxnanbnsnfns10111011111" string_table="npnxnanbnsnfns10111011111" />
+    <layout name="npxnabnsnfns10111011111" font="Calibri" controllayout="npxnabnsnfns10111011111" colorscheme="npnxnanbnsnfns10111011111" string_table="npnxnanbnsnfns10111011111" />
+    <layout name="npnxnanbnsnfns10111011111" font="Calibri" controllayout="npnxnanbnsnfns10111011111" colorscheme="npnxnanbnsnfns10111011111" string_table="npnxnanbnsnfns10111011111" />
+    <layout name="pxabnsnfns10111011110" font="Calibri" controllayout="pxabnsnfns10111011110" colorscheme="npnxnanbnsnfns10111011111" string_table="npnxnanbnsnfns10111011111" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="false">
+            <options>
+              <option name="title_text" value="Project2x" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="false">
+            <options />
+          </option>
+          <option name="sidebar_enabled" value="true">
+            <options>
+              <option name="sidebarpos" value="left" />
+              <option name="closed" value="false" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="resources" value="false" group="linkright" />
+              <listitem name="customlink" value="true" group="linkright">
+                <properties>
+                  <property name="title" value="Navigation Help" />
+                  <property name="data" value="6Lqea7Z7k85" />
+                  <property name="ignoreSlideLock" value="true" />
+                </properties>
+              </listitem>
+              <listitem name="outline" value="true" group="sidebar" />
+              <listitem name="glossary" value="true" group="sidebar" />
+              <listitem name="transcript" value="true" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="false" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="true" />
+          <option name="seekbar" value="true">
+            <options>
+              <option name="readonly" value="false" />
+              <option name="readonlyOnce" value="false" />
+            </options>
+          </option>
+          <option name="pauseplay" value="true" />
+          <option name="replay" value="true" />
+          <option name="search" value="true" />
+          <option name="closed_captions" value="false">
+            <options>
+              <option name="font" value="Calibri" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="buttonoptions">
+        <options>
+          <option name="next" value="icontext" />
+          <option name="previous" value="icontext" />
+          <option name="submit" value="icontext" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns10111011111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns10111011111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns10111011111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns10111011111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns10111011110">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="npnxnanbnsnfns10111011111">
+      <color_group name="accessibility">
+        <group_colors>
+          <color name="focus_rect">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFF00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="HTML">
+        <group_colors>
+          <color name="htmlpage_bg_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFBFBFB" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="preloader">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8C8C8C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7D7D7D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFF0000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7D7D7D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDCDCDC" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7D7D7D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x316300" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x545454" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x214400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x428E00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2E5D00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3C7C00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="scene_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2C2F30" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x5B6264" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xEAEAEA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x838282" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xAAAAAA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE8E8E8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x838282" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8C8C8C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2C2F30" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE8E8E8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x272B2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x272B2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7D7D7D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bottom_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDFDFDF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8C8C8C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="50" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDCDCDC" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2C2F30" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x292929" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E8E8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x457E13" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3F8500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3F4548" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xEAEAEA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_in_tab">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xEAEAEA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6AA242" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x275000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4B8A16" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC4C4C4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xADADAD" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x479901" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x366F00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFBFBFB" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="generic_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="right_shadow">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+                <color rgb="0x000000" alpha="1" stop="89" />
+                <color rgb="0x000000" alpha="6" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x254B00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xAFDD82" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2BC400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5300" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7D7D7D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7D7D7D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x272B2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="brandhighlight">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x016F5E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7D7D7D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x272B2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x272B2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF7F7F7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFBFBFB" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="overlay_message">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="30" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x428C01" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0xDCDCDC" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="npnxnanbnsnfns10111011111">
+      <string id="acc_active">active</string>
+      <string id="check_include">Check to include</string>
+      <string id="clear">Clear and return to menu</string>
+      <string id="close">Close</string>
+      <string id="acc_closed_captions">Closed captions.</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="exit">Exit</string>
+      <string id="filter">Filter</string>
+      <string id="finish">FINISH</string>
+      <string id="acc_finish">finish</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
+      <string id="glossary">Glossary</string>
+      <string id="terms">Terms</string>
+      <string id="action">Action</string>
+      <string id="keyboardshortcuts">Keyboard Shortcuts</string>
+      <string id="shortcuthelp">List keyboard shortcuts</string>
+      <string id="shortcut">Shortcut</string>
+      <string id="togglezoom">Switch zoom modes</string>
+      <string id="outline">Menu</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="next">NEXT</string>
+      <string id="acc_next">next</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript">Subtitles</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">More info</string>
+      <string id="closed_captions">Captions</string>
+      <string id="acc_pause">pause</string>
+      <string id="acc_play">play</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="prev">PREV</string>
+      <string id="acc_previous">previous</string>
+      <string id="question_list">Question List</string>
+      <string id="acc_replay">replay</string>
+      <string id="resources">Resources</string>
+      <string id="acc_resources">resources</string>
+      <string id="restart">Restart</string>
+      <string id="resume">Resume</string>
+      <string id="acc_search_input">search</string>
+      <string id="search_toggle">Search</string>
+      <string id="sidebar_toggle">Sidebar Toggle</string>
+      <string id="desktop_start">Start Course</string>
+      <string id="mobile_start">Start Course</string>
+      <string id="search">Search...</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_results">Search Results</string>
+      <string id="acc_skipnavigation">Back to top</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="submit">SUBMIT</string>
+      <string id="acc_submit">submit</string>
+      <string id="acc_volume">volume</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Calibri">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+    <font name="Arial">
+      <files>
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.6iflzwsIZwv.5cTdH0Mfpqi" displaytext="Course Overview" expand="false" type="slide" />
+        <slidelink slideid="_player.6iflzwsIZwv.6HPPumspq1T" displaytext="Course Objectives" expand="false" type="slide" />
+        <slidelink slideid="_player.6iflzwsIZwv.5gBljZh0DmJ" displaytext="Key Changes" expand="false" type="slide" />
+        <slidelink slideid="_player.6iflzwsIZwv.6gGvKOtZjLk" displaytext="Manage Recruiting in SuccessFactors" expand="false" type="slide" />
+        <slidelink slideid="_player.6iflzwsIZwv.5gNSbvpoEQ0" displaytext="Roles and Responsibilities" expand="false" type="slide" />
+        <slidelink slideid="_player.6iflzwsIZwv.66xHXl174i3" displaytext="Business Scenario" expand="false" type="slide" />
+        <slidelink slideid="_player.6iflzwsIZwv.64VYI53qBFR" displaytext="Initiate Job Requisition - Overview" expand="false" type="slide">
+          <links>
+            <slidelink slideid="_player.6iflzwsIZwv.5cZNKCRxNfk" displaytext="Access Position Org Chart" expand="false" type="slide" />
+            <slidelink slideid="_player.6iflzwsIZwv.66wSCN4ykkp" displaytext="Initiate the Job Requisition" expand="false" type="slide" />
+            <slidelink slideid="_player.6IYANZvTCcE.6ASIdxeWHSP" displaytext="Untitled Slide" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6iflzwsIZwv.6o8yaJKmaa1" displaytext="Knowledge Check" expand="false" type="slide" />
+        <slidelink slideid="_player.6iflzwsIZwv.6gfMeh1KBn3" displaytext="Summary" expand="false" type="slide" />
+        <slidelink slideid="" displaytext="Infobox" expand="true" type="slide" />
+      </links>
+    </outline>
+    <search>
+      <slidetext slideid="6iflzwsIZwv.61pFJcaNy1g" slidebank="false" type="slide"> r030 | initiate job requisition r030 | initiate job requisition   version 0.1 july 2020 launch launch launch click on launch to start the course.</slidetext>
+      <slidetext slideid="6iflzwsIZwv.5cTdH0Mfpqi" slidebank="false" type="slide">    training duration: 15 minutes  training audience: hiring manager (hm) hr business partner (bp) (for information only)  course description: this course will provide an overview on how to initiate a job requisition and send it to a recruiting responsible (rr) in order to start the recruiting process. welcome to the initiate job requisition course!   course overview introduction</slidetext>
+      <slidetext slideid="6iflzwsIZwv.6HPPumspq1T" slidebank="false" type="slide">introduction	 at the end of this course, you should be able to:  understand the linkage between a position in the organizational chart and a job requisition initiate a job requisition review and update the job requisition form submit the job requisition cancel the job requisition  course objectives  </slidetext>
+      <slidetext slideid="6iflzwsIZwv.5gBljZh0DmJ" slidebank="false" type="slide">enhances collaboration between business and hr to develop a targeted sourcing strategy specifically for niche skill-sets enables fast screening of the candidate and keeps the involved roles  the intake / recruitment session between the hiring manager and the recruiting responsible to discuss and align on position related expectations  introduction	 key changes here are the key changes covered in this course and their impacts / benefits:</slidetext>
+      <slidetext slideid="6iflzwsIZwv.6gGvKOtZjLk" slidebank="false" type="slide">  introduction manage recruiting in successfactors the graphic below identifies some of the key tasks in the recruiting process:             hr review &amp; approve job offer prepare  job offer  hire applicant &amp;  close requisition prepare rejection &amp; rescind offer hr hm hr hr hm handle shortlisted applicants screen  applicants  select  applicant create a  position request  post job requisition hm hr hr hr candidate  sourcing  hm initiate jobrequisition      hm           hm initiate jobrequisition</slidetext>
+      <slidetext slideid="6iflzwsIZwv.5gNSbvpoEQ0" slidebank="false" type="slide">introduction roles and responsibilities         depending on the local structure of the hr department, more than one role could be assigned to a single person. hiring manager initiates a job requisition selects shortlisted and final applicants approves a job offer initiates rejections hr business partner stays informed during recruiting process approves a job offer in exceptional scenarios recruiting responsible finalizes and posts a job requisition manages candidate sourcing screens and selects the right applicants prepares and sends out offer letter recruiting support schedules interviews finalizes rejections here are the main roles and their responsibilities:</slidetext>
+      <slidetext slideid="6iflzwsIZwv.66xHXl174i3" slidebank="false" type="slide"> there is a vacant position in the sales department that has already been approved. now the hiring manager has to: identify the detailed staffing requirements initiate a job requisition based on an already approved vacant position  assign a job requisition to the recruiting responsible let us look at the tasks to be performed to initiate a job requisition. process: initiate a job requisition business scenario  introduction hiring manager</slidetext>
+      <slidetext slideid="6iflzwsIZwv.64VYI53qBFR" slidebank="false" type="slide">update the job requisition and submit  to recruiting responsible  3    initiate  the job requisition  2    access  positions org chart  1    click each step to know more.  initiate job requisition – overview module 1: initiate the job requisition process          the hiring manager is the primary initiator of the job requisition as a pre-requisite, an already approved vacant position in sap hp1 is needed before a job requisition can be initiated  with the initiation of the job requisition, relevant information is added by the hiring manager as preparation for the job posting by the recruiting responsible </slidetext>
+      <slidetext slideid="6iflzwsIZwv.5cZNKCRxNfk" slidebank="false" type="slide">    1  2    module 1: initiate the job requisition process  access position org chart log in to successfactors (sf) recruiting via schaeffler portal. to access the position org chart, follow the steps below: click the home drop-down menu on the top-left of the homepage. select the company info option from the drop-down menu.  1  2</slidetext>
+      <slidetext slideid="6iflzwsIZwv.6FVHG90C4Ms" slidebank="false" type="slide">    1    module 1: initiate the job requisition process  initiate the job requisition to identify an approved position in order to initiate a job requisition, follow the steps below: click the tab position org chart to view positions organizational chart.  1</slidetext>
+      <slidetext slideid="6iflzwsIZwv.6SstxpNg9sF" slidebank="false" type="slide">   1   module 1: initiate the job requisition process  access and update the job requisition to access and update the initiated job requisition, follow the steps below: a new icon will appear on the vacant position for which the job requisition has been initiated. this is an informative icon to show that there is an ongoing job requisition for this position. click the job requisition icon to access the job requisition form.  1</slidetext>
+      <slidetext slideid="6iflzwsIZwv.5qAywzK2rjh" slidebank="false" type="slide">   2   module 1: initiate the job requisition process  access and update the job requisition to access and update the initiated job requisition, follow the steps below: a pop-up will appear next to the position. click the small card icon next to the id in the section job requisition details to access the job requisition form. once you follow this step, a new pop-up window will open which will display all of the information related to your requisition.  2</slidetext>
+      <slidetext slideid="6iflzwsIZwv.659jnvNFPk7" slidebank="false" type="slide">you have viewed all of the sections.  click the button to access the knowledge check and move forward in the course.  launch knowledge check launch knowledge check launch knowledge check   1     2     3     4     5    job profile job requisition information organizational information job information roles module 1: initiate the job requisition process  access and update the job requisition the various sections of the job requisition form are explained below. click on each section to learn more.           some fields of the job requisition form will reflect the position data existing in sap hp1 and can not be modified (e.g. company) few fields of the job requisition form need to be reviewed and modified (e.g. number of openings) status of the requisition should not be changed unless there was an error and requisition needs to be canceled mandatory fields are marked with a red asterisk update the job profile first to avoid data loss</slidetext>
+      <slidetext slideid="6iflzwsIZwv.6gfMeh1KBn3" slidebank="false" type="slide">summary you should now be able to: understand the linkage between a position in the organizational chart and a job requisition initiate a job requisition review and update the job requisition form submit the job requisition cancel the job requisition  course summary  </slidetext>
+      <slidetext slideid="6iflzwsIZwv.5brBTGU2Z2k" slidebank="false" type="slide">thank you</slidetext>
+      <slidetext slideid="6iflzwsIZwv.6dKrn0pZBjz" slidebank="false" type="slide">  1        2     3     4       5  job profile job requisition information organizational information job information roles module 1: initiate the job requisition process  job profile the job profile section is the first section of the job requisition form. in order to access and modify information in this section you will need to: click job profile on the top of the page to review and update the job profile information. 1 1 2 2 3 3 4 4 5 5  1        update the job profile first to avoid data loss.</slidetext>
+      <slidetext slideid="6iflzwsIZwv.6a193rfQS6W" slidebank="false" type="slide">         2     3     4       5  job profile job requisition information organizational information job information roles module 1: initiate the job requisition process  job requisition information job requisition information is the second section of the job requisition form. the following fields are available in this section: job requisition id: read only field job requisition status: keep status as draft when submitting the form to recruiting responsible recruiting attachments: attach documents relevant for recruiting responsible hiring manager comment: share additional information for recruiting responsible 1 1 2 2 3 3 4 4 5 5             you can cancel a job requisition by changing status to canceled as long as requisition was not sent to recruiting responsible. e.g. as part of the         job requisition initiation process or afterwards.</slidetext>
+      <slidetext slideid="6iflzwsIZwv.6YAS5nBxH65" slidebank="false" type="slide">   module 1: initiate the job requisition process  organizational information      2     3     4       5  job profile job requisition information organizational information job information roles the next section is organizational information.  most of the fields in this section are read-only fields which are cascaded from position level from sap hp1. however, you can modify the following field: global position name: allows you to select single or multiple values. if necessary, you can select more than one position in order to open the same requisition for multiple similar vacant positions location: editable field that allows you to select single or multiple values pertaining to the location where the new position is opened   1 1 2 2 3 3 4 4 5 5         when selecting multiple locations or positions make sure that number of openings captured in job information reflects the recruiting scenario. </slidetext>
+      <slidetext slideid="6iflzwsIZwv.6nIuWBFtldS" slidebank="false" type="slide">  1  2        2     3     4       5  job profile job requisition information organizational information job information roles module 1: initiate the job requisition process  roles to complete the job requisition initiation process, follow the steps below: fill in the recruiting responsible: you can pick from a list of users or you can start typing a name and the system will recommend the closest match depending on local structure recruiting responsible may not be the same as hr business partner.please get in touch with hr in case you don´t know the dedicated recruiting responsible click the send to recruiting responsible button. 1 1 2 2 3 3 4 4 5 5  1  2        you can add additional members to your team by using manage additional users. the team members will be able to process the same steps as you are.           the add modifier button is not used in our current process.</slidetext>
+      <slidetext slideid="6iflzwsIZwv.6dvgaOBno1T" slidebank="false" type="slide">module 1: initiate the job requisition process  job information job information is our fourth section within the job requisition form. you can find some details about the type of fields in this section below: several fields from this section allow you to choose a value from a pre-defined list (e.g.staffing kind) other fields allow you to type in relevant information (e.g. work schedule) you can always use the question mark button (next to select fields), to get more information about the field you need to fill in              for limited contracts, make sure to specify the duration by filling in “duration of limited contract” (e.g. x months, x years) in case of part-time positions, make sure to update the pre-filled values for fte and standard hours (e.g. 0.5 fte and 20 standard hours per week)</slidetext>
+      <slidetext slideid="6iflzwsIZwv.6o8yaJKmaa1" slidebank="false" type="slide">                                           options incorrect try again try again try again                                                                                       options correct continue continue continue options   organization information organization information organization information organization information organization information organization information job profile job profile job profile job profile job profile job profile roles job profile job profile job profile job profile roles scenario / question  module 1: initiate the job requisition process  knowledge check which section of the job requisition form needs to be filled in first? select the correct answer from the options given below, then click on the submit button.                                          </slidetext>
+      <slidetext slideid="6iflzwsIZwv.6mnriF74pf1" slidebank="false" type="slide">  3         2     3     4       5  job profile job requisition information organizational information job information roles module 1: initiate the job requisition process  roles to complete the job requisition initiation process, follow the steps below: a confirmation page will appear, click the send to recruiting responsible button to finalize the process for initiating a job requisition. additionally, you can use the comments section to add more details relevant to the recruiting responsible. 1 1 2 2 3 3 4 4 5 5  3        once the job requisition is finalized an automated email notification is triggered to recruiting responsible assigned to the respective job requisition in         order to finalize the job posting. moving forward hr is going to get in touch with you in order to talk about the recruiting strategy. </slidetext>
+      <slidetext slideid="6iflzwsIZwv.5lgR1qON1Tx" slidebank="false" type="slide">        2     3     4       5  job profile job requisition information organizational information job information roles module 1: initiate the job requisition process  roles aditionally, you can choose not to send the job requisition right away. for this you can use the following options: in order to save data you filled in, without finalizing the job requisition, use save and close button you can access the job requisition later on, from the company info -&gt; position org chart in order to either change initial content or send it to recruiting responsible you can as well cancel a job requisition, by changing status to cancelled, as long as requisition was not sent to recruiting responsible 1 1 2 2 3 3 4 4 5 5  </slidetext>
+      <slidetext slideid="6iflzwsIZwv.6cI0tLLGDeJ" slidebank="false" type="slide">    module 1: initiate the job requisition process  job profile      2     3     4       5  job profile job requisition information organizational information job information roles the job profile page allows you to edit or update the pre-filled sections. click a section to enable editing. the pre-populated text and sections are derived from the global job catalogue (gjc) and serves as a basis you can edit/update the different pre-filled sections, by clicking directly on the content of the text scroll to the bottom of the page and click on the save button to save your changes. 1 1 2 2 3 3 4 4 5 5              make sure you have updated your key responsibilities and your qualifications sections before saving the job profile and do not change the sections’         headlines as these are standardized and will be visible in the internal and external posting.                                                                                   </slidetext>
+      <slidetext slideid="6iflzwsIZwv.5nHrmIARnLA" slidebank="false" type="slide">   module 1: initiate the job requisition process  job profile      2     3     4       5  job profile job requisition information organizational information job information roles to return back to the job requisition form, go up left under the job requisition's title and click the job requisition details tab. this allows you to continue updating the rest of the form. 1 1 2 2 3 3 4 4 5 5  changes done in job profile will be reviewed by recruiting responsible before posting the job requisition your key responsibilities and your qualifications will be visible in the internal and external posting aspects are not visible in the posting, but shown as additional information competencies will be added by recruiting responsible when finalizing the job requisition</slidetext>
+      <slidetext slideid="6iflzwsIZwv.66wSCN4ykkp" slidebank="false" type="slide">    c  b  a    module 1: initiate the job requisition process  initiate the job requisition on the position org chart positions can have different statuses as highlighted below:	 a)        filled position:  an employee is assigned on the respective position. b)        vacant position:  need a resource to fill this position and can be used to initiate a job requisition. you will notice vacant positions by their zero on one fte count and the presence of an add button in the top left side of the position box. c)        position with ongoing job            requisition:  a job requisition has been initiated for it. hover over the job requisition icon to see its status.  a  b  c</slidetext>
+      <slidetext slideid="6iflzwsIZwv.6ksXrhIHMTR" slidebank="false" type="slide">    3  2  1    module 1: initiate the job requisition process  initiate the job requisition to initiate a job requisition, follow the steps below: identify a vacant position for which a job requisition can be created. click the title of the position. a pop-up will appear next to the position. navigate to the top-right corner of this pop-up and click the icon with 3 small horizontal lines. click the create job requisition option.  1  2        first a vacant position needs to exist in the position org chart before a requisition can be initiated.  3</slidetext>
+      <slidetext slideid="6iflzwsIZwv.6jlEiXrmM32" slidebank="false" type="slide">    4    module 1: initiate the job requisition process  initiate the job requisition to initiate a job requisition, follow the steps below: the manage job requisition pop-up window displays the creation date of the new job requisition. click the create button to finalize the action. a new job requisition was successfully initiated. follow next steps to access and update the job requisition.  4        if the date of new job requisition is changed to a future date, the process will be blocked until that date comes. therefore do not         change the date. </slidetext>
+      <slidetext slideid="6IYANZvTCcE.6ASIdxeWHSP" slidebank="false" type="slide">course panel 1 2 3 4 5 6 7 player buttons menu - contains the list of topics presented in the e-learning module you are visiting.                       you can click on each topic to navigate through the course at will. glossary - contains all general terms used throughout the course and their definitions. subtitles - contains a transcript of the audio for the slide you are viewing.  show/hide -  this button allows you to hide and show the course panel. audio – use this button to control the volume at which the course audio is playing. play/pause – use this button to play or pause the course at any time. replay – use this button to replay the slide you are viewing. on-slide interaction zoom-in use this button to zoom in on system screenshots throughout the course. close use this button to close a system screenshot you have previously zoomed in on. button button button on-slide buttons throughout the course, you may be presented with buttons that will let you get access to new information or move to the next slide.  please note that some buttons may also be hidden until you visit all of the learning points within one slide. </slidetext>
+    </search>
+  </nav_data>
+  <resource_data description="" />
+  <transcript_data>
+    <slidetranscripts>
+      <slidetranscript slideid="6iflzwsIZwv.61pFJcaNy1g" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="0">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Span Text="Welcome to the Initiate Job Requisition online course! Click on the " /&gt;
+      &lt;Span Text="Launch "&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="button to start." /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6iflzwsIZwv.5cTdH0Mfpqi" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="1">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Span Text="To go through this course you will need 15 minutes. During this time you will be provided with an overview on how to initiate a Job Requisition and send it to a Recruiting Responsible through SuccessFactors Recruiting in order to start the recruiting process." /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6iflzwsIZwv.6HPPumspq1T" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="After finishing this course you should have understood the linkage between a position in the organizational chart and a Job Requisition. You should also be able to initiate, submit and cancel a Job Requisition and will be able to review and update the Job Requisition form."&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6iflzwsIZwv.5gBljZh0DmJ" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="3">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Span Text="The Digital HR project aims at enhancing the way we work in order to bring our organization benefits through thorough key changes. &amp;#xD;The intake sessions between Recruiting Responsible and Hiring Managers will enhance collaboration between business and HR in order to develop a targeted sourcing strategy to allow faster Screening of applicants." /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6iflzwsIZwv.6gGvKOtZjLk" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="4">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Span Text="You are viewing a graphic of how Recruiting is managed in SuccessFactors. In this course we will be focusing on the second step, " /&gt;
+      &lt;Span Text="Initiate Job Requisition"&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="." /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6iflzwsIZwv.5gNSbvpoEQ0" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="5">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Here are the main roles that are involved during initiation of a Job Requisition as well as the most important tasks during the Recruiting Process.&amp;#xD;&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="• The Hiring Manager, who initiates a " /&gt;
+      &lt;Span Text="Job Requisition"&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=", selects the shortlisted and final " /&gt;
+      &lt;Span Text="Applicants"&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=", approves a " /&gt;
+      &lt;Span Text="Job Offer "&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="and initiates " /&gt;
+      &lt;Span Text="Rejections"&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=". &amp;#xD;• The HR Business Partner who stays informed throughout the " /&gt;
+      &lt;Span Text="Recruiting Process "&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="can approve a " /&gt;
+      &lt;Span Text="Job Offer "&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="in Addition to the hiring Manager, if needed.&amp;#xD;• The Recruiting Responsible who" /&gt;
+      &lt;Span Text=" Finalizes "&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="and " /&gt;
+      &lt;Span Text="Posts "&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="Job Requisitions, manages " /&gt;
+      &lt;Span Text="Candidate Sourcing"&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=", screens and selects the " /&gt;
+      &lt;Span Text="right Applicants"&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=", and prepares and sends out the " /&gt;
+      &lt;Span Text="Offer Letter"&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="&amp;#xD;&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="and finally&amp;#xD;&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="• Recruiting Support who schedules " /&gt;
+      &lt;Span Text="Interviews "&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="and finalize " /&gt;
+      &lt;Span Text="Rejections"&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=".&amp;#xD;&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Please note that depending on the local structure of the HR department, more than one role could be assigned to a single person." /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6iflzwsIZwv.66xHXl174i3" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="6">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Let`s look at a business scenario. There is a vacant position in the Sales department. The Hiring Manager now has to:&amp;#xD;&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="• Identify the detailed staffing requirements&amp;#xD;• Initiate a Job Requisition based on an already approved position &amp;#xD;• Assign a Job Requisition to the Recruiting Responsible&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xD;Next, let`s have an in depth look on the tasks that need to be performed in order to initiate a Job Requisition through SuccessFactors Recruiting." /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6iflzwsIZwv.64VYI53qBFR" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="7">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Span Text="Let's have a look at the overview of how to initiate the Job Requisition Process. You will first need to access the Positions Organizational Chart, then Initiate the Job Requisition and finally update the Job Requisition and submit it to Recruiting Responsible. Click on each of these steps to learn how you would manage it through SuccessFactors Recruiting. " /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6iflzwsIZwv.5cZNKCRxNfk" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="8">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Span Text="To Access the Position Organizational Chart you will first need to Login to Success Factors via " /&gt;
+      &lt;Span Text="Schaeffler Portal"&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=". Once the SuccessFactors Homepage has loaded in your browser, click on the " /&gt;
+      &lt;Span Text="Home "&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="drop-down menu on the top-left of the Homepage. From this drop-down menu, select the " /&gt;
+      &lt;Span Text="Company Info "&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="option." /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6iflzwsIZwv.6FVHG90C4Ms" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="9">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Span Text="To Initiate a Job Requisition you will first need to click on the " /&gt;
+      &lt;Span Text="Position Org Chart "&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="tab. " /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6iflzwsIZwv.6SstxpNg9sF" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="10">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Span Text="To update an already initiated Job Requisition you will notice that the position for which you have previously initiated a " /&gt;
+      &lt;Span Text="Job Requisition "&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="now shows a clipboard icon. Click on this icon." /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6iflzwsIZwv.5qAywzK2rjh" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="11">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Span Text="Once you have clicked on your position`s clipboard icon, a pop-up menu will appear containing relevant information for the position. To access the initiated " /&gt;
+      &lt;Span Text="Job Requisition"&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=", click on the " /&gt;
+      &lt;Span Text="Small Card "&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="icon next to the ID as highlighted in the screenshot. Once you have clicked on the icon, you will be transported to the " /&gt;
+      &lt;Span Text="Job Requisition "&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="form. " /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6iflzwsIZwv.659jnvNFPk7" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="12">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Span Text="Let`s have an in depth look at each of the sections within the Job Requisition form. Click on each section to learn more starting with the Job Profile section." /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6iflzwsIZwv.6gfMeh1KBn3" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="13">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="You have reached the end of this course. You should now be able to: understand the linkage between a position in the organizational chart and a Job Requisition, initiate, submit and cancel a Job Requisition and you will be able to Review and update the Job Requisition form.&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block /&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6iflzwsIZwv.5brBTGU2Z2k" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="14">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Span Text="Congratulations on finishing the Initiate Job Requisition course! Thank you!" /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6iflzwsIZwv.6dKrn0pZBjz" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="15">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Span Text="The " /&gt;
+      &lt;Span Text="Job Profile "&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="section is the first of the Job Requisition form. To modify this section`s information you will need to click on the " /&gt;
+      &lt;Span Text="Job Profile "&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="tab on the top of the page. To avoid data loss, update the Job Profile first." /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6iflzwsIZwv.6a193rfQS6W" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="16">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Span Text="The second section of the " /&gt;
+      &lt;Span Text="Job Requisition "&gt;
+        &lt;Style FontIsBold="False" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="form is the " /&gt;
+      &lt;Span Text="Job Requisition Information "&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="section. This section contains all information fields related to the Job Requisition. You will be able to see: the " /&gt;
+      &lt;Span Text="Job Requisition ID"&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=", it`s status and you are able to upload relevant attachments and add comments which will both be visible to the responsible HR team." /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6iflzwsIZwv.6YAS5nBxH65" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="17">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Span Text="The " /&gt;
+      &lt;Span Text="Organizational Information "&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="section contains information related to the organization for which the Job Requisition has been posted. As such, most fields in this section are read only and are cascaded from the position level in SAP HP1. However, you will need to choose one " /&gt;
+      &lt;Span Text="Global Position "&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="or more " /&gt;
+      &lt;Span Text="Global Position "&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="names if you need to open the same requisition for multiple similar vacant positions and " /&gt;
+      &lt;Span Text="Location "&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="or " /&gt;
+      &lt;Span Text="Locations "&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="where the new positions are opened." /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6iflzwsIZwv.6nIuWBFtldS" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="18">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Span Text="The final section is the Roles section. This section allows you to fill in the " /&gt;
+      &lt;Span Text="Recruiting Responsible "&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="who should take over the Job Requisition after you have saved and send it. You can pick the " /&gt;
+      &lt;Span Text="Recruiting Responsible "&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="by either picking from the list of users or by starting to type in their name. The system will suggest the closest match based on the name you have typed in. To send the Job Requisition to the selected Recruiting Responsible, click on the " /&gt;
+      &lt;Span Text="Send to Recruiting Responsible "&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="button at the bottom of the page.&amp;#xD;&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Span Text="Please note that on this page you can also add additional members to your team by using the " /&gt;
+      &lt;Span Text="Manage Additional Users "&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="field. The members added here will be able to process the same steps as you are." /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6iflzwsIZwv.6dvgaOBno1T" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="19">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Span Text="The " /&gt;
+      &lt;Span Text="Job Information "&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="section contains detailed information related to the Job Requisition. There are several fields that can be filled in by choosing a value from a pre-defined list or fields that let you type in relevant information for the respective field such as the type of work schedule. For more information on each field in this section, you can click on the Question mark button directly in SuccessFactors." /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6iflzwsIZwv.6o8yaJKmaa1" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="20">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Span Text="Select the correct answer for the following question: Which section of the Job Requisition form needs to be filled in first?" /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6iflzwsIZwv.6mnriF74pf1" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="21">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Span Text="After clicking on the Send to Recruiting Responsible button, you will be transported to the confirmation page. On this page you can add comments to the automatic email notification that the Recruiting Responsible is going to receive. Click on the " /&gt;
+      &lt;Span Text="Send to Recruiting Responsible "&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="button once again to initiate the Job Requisition." /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6iflzwsIZwv.5lgR1qON1Tx" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="22">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Span Text="In addition to sending the Job Requisition directly to the Recruiting Responsible, you have the option to save the Job Requisition without sending it to the Recruiting Responsible right away or cancel it altogether. To save your changes without sending the Job Requisition forward, click on the " /&gt;
+      &lt;Span Text="Save and Close "&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="button at the bottom of the page. You can always access your saved " /&gt;
+      &lt;Span Text="Job Requisition "&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="later on from the " /&gt;
+      &lt;Span Text="Position Org Chart "&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="in order to change or send it to Recruiting Responsible.&amp;#xD;&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Span Text="If you want to cancel your " /&gt;
+      &lt;Span Text="Job Requisition"&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=", simply change its status from the Job Requisition Information section of the current page." /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6iflzwsIZwv.6cI0tLLGDeJ" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="23">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Span Text="Once the Job Profile page is shown you can edit the pre-filled sections. The information that is pre-populated in the first three sections is derived from the " /&gt;
+      &lt;Span Text="Global Job Catalogue "&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="and the section &amp;quot;Your Key Responsibilities&amp;quot; and &amp;quot;Your Qualifications&amp;quot; serve as a basis for the Job Posting. The Aspects section is not visible in job postings. You can edit or update these sections by clicking directly on the content of the section. Section headlines are pre-filled and can be changed by clicking +Edit, but this must not be done as they are standardized. To save your changes, scroll down to the bottom of the page and click on the save button." /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6iflzwsIZwv.5nHrmIARnLA" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="24">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Span Text="Once you have saved your changes you can go back to the Job Requisition form by scrolling back up and clicking on the " /&gt;
+      &lt;Span Text="Job Requisition Details "&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="tab. After this step you will be able to update the rest of the Job Requisition form." /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6iflzwsIZwv.66wSCN4ykkp" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="25">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="While looking at the Position Organizational Chart you should notice that positions have different statuses. &amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="a) " /&gt;
+      &lt;Span Text="Filled Positions "&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="will be numbered by having an FTE count under them that indicates that an employee is assigned to the respective position&amp;#xD;b) You will notice " /&gt;
+      &lt;Span Text="Vacant Positions "&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="by their zero on one FTE count and the presence of an add button in the top left side of the position box&amp;#xD;c) " /&gt;
+      &lt;Span Text="Positions with an ongoing Job Requisition "&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="will be marked by having a clipboard icon in the position box." /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6iflzwsIZwv.6ksXrhIHMTR" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="26">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Span Text="To initiate a Job Requisition you will first need to identify a vacant position and click on the tile for the respective position. By doing this, a pop-up with a detailed view of the position will appear. Click on the three horizontal lines in the upper right hand side of the pop-up to open the menu for the position and click on the " /&gt;
+      &lt;Span Text="Create Job Requisition "&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="option. Please note that you will always need a vacant position on the organizational chart to initiate a requisition." /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6iflzwsIZwv.6jlEiXrmM32" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="27">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Span Text="After the previous steps have been completed, the " /&gt;
+      &lt;Span Text="Manage Job Requisition "&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="pop-up window appears. This windows displays the creation date of the new Job Requisition. You will only need to click on the " /&gt;
+      &lt;Span Text="Create "&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="button and your new Job Requisition will be successfully initiated. Please note that changing the date of your new Job Requisition to a future date will block the process until the entered date comes, therefore " /&gt;
+      &lt;Span Text="do not change the date "&gt;
+        &lt;Style FontIsBold="True" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="in this pop-up window." /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+    </slidetranscripts>
+  </transcript_data>
+  <glossary_data>
+    <terms>
+      <term title="Job Profile">- Summarizes key responsibilities and competencies derived from the Global Job Catalogue (GJC)</term>
+      <term title="Job Requisition">- A form used to initiate the Recruiting process based on an approved position
+- Includes information required for creating the Job Posting and for filling the position</term>
+      <term title="SAP HP1">- A SAP module for HR where personnel and organizational data is maintained
+- SAP HP1 is connected to SuccessFactors
+- A vacant position in SAP HP1 is transferred to SuccessFactors so that the Hiring Manager can initiate a Job Requisition based on the position</term>
+    </terms>
+  </glossary_data>
+</bwFrame>
